@@ -14,9 +14,9 @@ export default function Weather(props) {
                
                     <View style={styles.crop}>
                         <View >
-    <Text  style={styles.textfornt}>{"\n"}Zip Code is  {props.zipCode}.{"\n"} </Text>
+    <Text  style={styles.textfornt}>{"\n"}Zip code is  {props.zipCode}.{"\n"} </Text>
                             <Forecast {...forecastInfo}></Forecast>
-                            <Text style={styles.textfornt}>Made My Jaturon EiEi 026</Text>
+                            {/* <Text style={styles.textfornt}>Made My Jaturon EiEi 026</Text> */}
                         </View>
                       
                     </View>
